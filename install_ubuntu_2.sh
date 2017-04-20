@@ -11,7 +11,7 @@ pip3 install --upgrade pip
 pip -V
 pip3 -V
 
-#sudo mv  /usr/local/bin/pip /usr/local/bin/pip3
+sudo mv  /usr/local/bin/pip /usr/local/bin/pip3
 sudo ln -s /usr/local/bin/pip2.7 /usr/local/bin/pip
 
 # To install TensorFlow:
