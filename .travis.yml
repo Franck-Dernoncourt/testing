@@ -7,4 +7,7 @@ python:
 install:
   - bash install_ubuntu.sh
 script:  
-  - python easy.py 
+  - ls -la
+  - cd ../src
+  - ls -la
+  - python main.py

@@ -1,28 +1,17 @@
 #!/bin/bash
 ls -la
 pip -V
-#  If you use Ubuntu 14.04, you need to install Python 3.5 (by default Ubuntu 14.04 doesn't have Python 3.5, unlike Ubuntu 16.04):
-sudo add-apt-repository -y ppa:fkrull/deadsnakes
-sudo apt-get update
-sudo apt-get install -y python3.5
-wget https://bootstrap.pypa.io/get-pip.py
-sudo python3.5 get-pip.py
-pip3 install --upgrade pip
-pip -V
 pip3 -V
 
-#sudo mv  /usr/local/bin/pip /usr/local/bin/pip3
-sudo ln -s /usr/local/bin/pip2.7 /usr/local/bin/pip
-
 # To install TensorFlow:
-sudo pip3 install tensorflow
+sudo pip install tensorflow
 
 # To install a few more packages which NeuroNER depends on:
-sudo pip3 install -U networkx matplotlib scikit-learn scipy
+sudo pip install -U networkx matplotlib scikit-learn scipy
 
 # Installing spaCy
 #sudo apt-get install -y build-essential python3.5-dev
-#sudo pip3 install -U spacy
+#sudo pip install -U spacy
 #sudo python3.5 -m spacy download en
 
 # To install NeuroNER:
@@ -42,5 +31,5 @@ unzip glove.6B.100d.zip
 ls -la
 cd ../../src
 ls -la
-python main.py
+#python main.py
 #cd ../..
