@@ -4,10 +4,10 @@ pip -V
 pip3 -V
 
 # To install TensorFlow:
-sudo pip install tensorflow
+#sudo pip install tensorflow
 
 # To install a few more packages which NeuroNER depends on:
-sudo pip install -U networkx matplotlib scikit-learn scipy
+#sudo pip install -U networkx matplotlib scikit-learn scipy
 
 # Installing spaCy
 #sudo apt-get install -y build-essential python3.5-dev
