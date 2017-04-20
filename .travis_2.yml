@@ -1,0 +1,13 @@
+sudo: required
+dist: trusty
+language: python
+python: 
+  - "3.5"
+# command to install dependencies
+install:
+  - pip install tensorflow numpy networkx matplotlib scikit-learn scipy spacy
+  - apt-get install -y build-essential python3.5-dev
+  - python3.5 -m spacy download en
+  - wget http://neuroner.com/data/word_vectors/glove.6B.100d.zip
+script:  
+  - python easy.py 
