@@ -1,5 +1,6 @@
 #!/bin/bash
 ls -la
+pip -V
 #  If you use Ubuntu 14.04, you need to install Python 3.5 (by default Ubuntu 14.04 doesn't have Python 3.5, unlike Ubuntu 16.04):
 sudo add-apt-repository -y ppa:fkrull/deadsnakes
 sudo apt-get update
@@ -8,6 +9,8 @@ wget https://bootstrap.pypa.io/get-pip.py
 sudo python3.5 get-pip.py
 pip3 install --upgrade pip
 pip -V
+pip3 -V
+
 sudo mv  /usr/local/bin/pip /usr/local/bin/pip3
 sudo ln -s /usr/local/bin/pip2.7 /usr/local/bin/pip
 
