@@ -23,11 +23,11 @@ sudo pip3 install -U spacy
 sudo python3.5 -m spacy download en
 
 # To install NeuroNER:
-wget https://github.com/Franck-Dernoncourt/NeuroNER/archive/master.zip
+#wget https://github.com/Franck-Dernoncourt/NeuroNER/archive/master.zip
 sudo apt-get install -y unzip
-unzip master.zip
-mkdir NeuroNER-master/data/word_vectors
-cd NeuroNER-master/data/word_vectors
+#unzip master.zip
+mkdir data/word_vectors
+cd data/word_vectors
 
 # Download some word embeddings
 #wget http://nlp.stanford.edu/data/glove.6B.zip
