@@ -1,5 +1,5 @@
 #!/bin/bash
-
+ls -la
 #  If you use Ubuntu 14.04, you need to install Python 3.5 (by default Ubuntu 14.04 doesn't have Python 3.5, unlike Ubuntu 16.04):
 sudo add-apt-repository -y ppa:fkrull/deadsnakes
 sudo apt-get update
@@ -19,8 +19,8 @@ sudo pip3 install -U networkx matplotlib scikit-learn scipy
 
 # Installing spaCy
 sudo apt-get install -y build-essential python3.5-dev
-sudo pip3 install -U spacy
-sudo python3.5 -m spacy download en
+#sudo pip3 install -U spacy
+#sudo python3.5 -m spacy download en
 
 # To install NeuroNER:
 #wget https://github.com/Franck-Dernoncourt/NeuroNER/archive/master.zip
@@ -36,6 +36,8 @@ unzip glove.6B.100d.zip
 
 # NeuroNER is now ready to run! By default it is configured to train and test on CoNLL-2003. To start the training:
 # To use the CPU if you have installed tensorflow, or use the GPU if you have installed tensorflow-gpu:
+ls -la
 cd ../../src
+ls -la
 python3.5 main.py
 #cd ../..
