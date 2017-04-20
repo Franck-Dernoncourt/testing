@@ -1,1 +1,1 @@
-print('easy OK')
+print('easy OK1')
