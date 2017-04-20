@@ -21,7 +21,7 @@ sudo pip3 install tensorflow
 sudo pip3 install -U networkx matplotlib scikit-learn scipy
 
 # Installing spaCy
-sudo apt-get install -y build-essential python3.5-dev
+#sudo apt-get install -y build-essential python3.5-dev
 #sudo pip3 install -U spacy
 #sudo python3.5 -m spacy download en
 
@@ -42,5 +42,5 @@ unzip glove.6B.100d.zip
 ls -la
 cd ../../src
 ls -la
-python3.5 main.py
+python main.py
 #cd ../..

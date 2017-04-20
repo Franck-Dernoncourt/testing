@@ -1,1 +1,1 @@
-print('easy OKvbhj12341')
+print('efasy OKvbhj12341')
