@@ -36,6 +36,6 @@ unzip glove.6B.100d.zip
 
 # NeuroNER is now ready to run! By default it is configured to train and test on CoNLL-2003. To start the training:
 # To use the CPU if you have installed tensorflow, or use the GPU if you have installed tensorflow-gpu:
-#cd ../../src
-#python3.5 main.py
-cd ../..
+cd ../../src
+python3.5 main.py
+#cd ../..
