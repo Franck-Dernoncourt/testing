@@ -297,9 +297,9 @@ def main():
 
 if __name__ == "__main__":
     main()
-    print('ok5')
-    print('ok6')
+    #print('ok5')
+    #print('ok6')
 
-print('ok7')
+#print('ok7')
 
-print('ok8')
+#print('ok8')
