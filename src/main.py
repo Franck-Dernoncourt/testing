@@ -277,7 +277,7 @@ def main():
                         results['execution_details']['early_stop'] = True
                         break
 
-                    if epoch_number > parameters['maximum_number_of_epochs']: break
+                    if epoch_number >= parameters['maximum_number_of_epochs']: break
 
 
             except KeyboardInterrupt:
