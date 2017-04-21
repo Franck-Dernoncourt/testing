@@ -297,5 +297,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-    print('ok4')
+    print('ok5')
+    print('ok6')
 
+print('ok7')
