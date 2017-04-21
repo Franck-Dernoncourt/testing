@@ -12,7 +12,7 @@ install:
   - pip install -U networkx matplotlib scikit-learn scipy spacy
   - python -m spacy download en
   # ensure that NeuroNER doesn't perform too many epochs (Travis jobs are limited to 50 minutes)
-  - sed -i 's/maximum_number_of_epochs = 100/maximum_number_of_epochs = 3/g' src/parameters.ini
+  - sed -i 's/maximum_number_of_epochs = 100/maximum_number_of_epochs = 1/g' src/parameters.ini
 script:  
   - cd src
   - python main.py
