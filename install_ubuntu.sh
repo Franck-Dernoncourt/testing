@@ -2,6 +2,9 @@
 ls -la
 pip -V
 pip3 -V
+free -m
+vmstat -s
+dmidecode -t 17
 
 sudo apt-get install -y unzip
 #unzip master.zip
