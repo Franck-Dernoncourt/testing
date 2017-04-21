@@ -288,9 +288,11 @@ def main():
             end_time = time.time()
             results['execution_details']['train_duration'] = end_time - start_time
             results['execution_details']['train_end'] = end_time
+            print('ok1')
             evaluate.save_results(results, stats_graph_folder)
+            print('ok2')
 
-    sess.close() # release the session's resources
+    #sess.close() # release the session's resources
 
 
 if __name__ == "__main__":
