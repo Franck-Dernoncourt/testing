@@ -7,7 +7,7 @@ python:
   - "3.5"
 # command to install dependencies
 install:
-  - bash install_ubuntu.sh
+  - bash .travis_install_ubuntu.sh
   - pip install tensorflow
   - pip install -U networkx matplotlib scikit-learn scipy spacy
   - python -m spacy download en
